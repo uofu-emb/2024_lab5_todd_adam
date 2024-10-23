@@ -5,7 +5,7 @@ add_compile_definitions(
 
 # This is the main binary. List your C files here.
 add_executable(task_delay
-    task_delay.c
+    gpio_interrupt.c
     )
 
 pico_set_program_name(task_delay "test")
