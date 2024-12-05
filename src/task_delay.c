@@ -2,7 +2,10 @@
 #include <pico/stdlib.h>
 #include <FreeRTOS.h>
 #include <task.h>
-#include <pico/cyw43_arch.h>
+
+#define DELAY_MS 100
+#define IN_PIN 6
+#define OUT_PIN 7 
 
 void main_task(__unused void *params)
 {

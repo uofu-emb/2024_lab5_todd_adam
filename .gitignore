@@ -2,6 +2,7 @@ Testing
 build
 log
 .gitmodules2
+load_files.sh
 
 *.log.*
 *-asciinema
